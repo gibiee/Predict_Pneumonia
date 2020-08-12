@@ -8,8 +8,7 @@
   - 박테리아성 폐렴 : ??장
   - 바이러스성 폐렴 : ??장
   - 코로나 : ??장
-  
-- (이미지)
+  ![classes](https://user-images.githubusercontent.com/37574274/89997891-bf0b1a80-dcc7-11ea-84c5-d457c71ecc0a.png)
 - 출처
   - 아래 4개의 링크에서 이미지 파일이 중복되거나 폐 이미지가 아닌 경우를 제외하고 통합하였습니다. 
   - https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
