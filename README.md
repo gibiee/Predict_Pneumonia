@@ -22,3 +22,5 @@
 - 유명한 CNN 모델 중 가장 나은 정확도를 보여주었던 Xception 모델을 사용.
 - Epoch 50 기준 test셋에 대한 accuracy : <span style="color:red">**90~98%**</span>
 - 코로나에 대한 이미지의 수가 다른 질병에 비해 극히 적은데도, 좋은 예측 정확도를 보여주었습니다.
+  - (confusion matrix image)
+  
