@@ -18,7 +18,7 @@
   - 전체 데이터 크기 : 약 2.5GB
   
 ## 결과
-- Xception 모델 사용. (loss='', optimizer='')
+- Xception 모델 사용. (loss='categorical_crossentropy', optimizer='adam')
 - Epoch 50 기준 test셋에 대한 accuracy : <span style="color:red">**90~98%**</span><br/>
   ![train_graph](https://user-images.githubusercontent.com/37574274/91636157-52b74780-ea39-11ea-877f-70e13ca4e184.png)
 - 특히, 코로나에 대한 이미지의 수가 다른 질병에 비해 크게 적은데도 좋은 예측 정확도를 보여주었습니다.
