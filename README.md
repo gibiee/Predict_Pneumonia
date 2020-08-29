@@ -21,7 +21,7 @@
 - Xception 모델 사용. (loss='categorical_crossentropy', optimizer='adam')
 - 모든 이미지의 크기를 (224, 224, 1)로 전처리
 - train 데이터와 test 데이터는 매번 통합 데이터셋에서 랜덤으로 추출(split)
-  - 따라서 결과(accuracy)가 항상 달라짐
+  - 따라서 결과(accuracy)가  달라짐
 
 ## 결과
 - Epoch 50 기준 test셋에 대한 accuracy : <span style="color:red">**90~98%**</span><br/>
