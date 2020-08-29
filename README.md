@@ -16,9 +16,13 @@
   - https://www.kaggle.com/praveengovi/coronahack-chest-xraydataset
   - https://www.kaggle.com/tawsifurrahman/covid19-radiography-database
   - 전체 데이터 크기 : 약 2.5GB
-  
-## 결과
+
+## 모델 구현
 - Xception 모델 사용. (loss='categorical_crossentropy', optimizer='adam')
+- 모든 이미지의 크기를 (224, 224, 1)로 전처리
+- train 데이터와 test 데이터는 매번 통합 데이터셋에서 랜덤으로 추출(split)
+
+## 결과
 - Epoch 50 기준 test셋에 대한 accuracy : <span style="color:red">**90~98%**</span><br/>
   ![train_graph](https://user-images.githubusercontent.com/37574274/91636157-52b74780-ea39-11ea-877f-70e13ca4e184.png)
 - 특히, 코로나에 대한 이미지의 수가 다른 질병에 비해 크게 적은데도 좋은 예측 정확도를 보여주었습니다.
