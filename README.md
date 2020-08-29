@@ -22,5 +22,6 @@
 - Epoch 50 기준 test셋에 대한 accuracy : <span style="color:red">**90~98%**</span><br/>
   ![train_graph](https://user-images.githubusercontent.com/37574274/91636157-52b74780-ea39-11ea-877f-70e13ca4e184.png)
 - 특히, 코로나에 대한 이미지의 수가 다른 질병에 비해 크게 적은데도 좋은 예측 정확도를 보여주었습니다.
-  <img src="https://user-images.githubusercontent.com/37574274/91636158-54810b00-ea39-11ea-9d31-66636fc8b585.png" width="50%" height="50%" /><br/>
+- Confusion Matrix
+  <br/><img src="https://user-images.githubusercontent.com/37574274/91636158-54810b00-ea39-11ea-9d31-66636fc8b585.png" width="50%" height="50%" /><br/>
   ex) 정답이 박테리아성 폐렴인데, 바이러스 폐렴이라고 오진한 경우는 36건입니다.
