@@ -23,8 +23,8 @@
 - train 데이터와 test 데이터는 매번 통합 데이터셋에서 랜덤으로 추출(split) → 따라서 결과(accuracy)가 매번 달라짐
 
 ## 결과
-- Epoch 50 기준 test셋에 대한 accuracy : <span style="color:red">**90~98%**</span><br/>
-  ![train_graph](https://user-images.githubusercontent.com/37574274/91636157-52b74780-ea39-11ea-877f-70e13ca4e184.png)
+- Epoch 50 기준 최종 accuracy : <span style="color:red">**90~98%**</span><br/>
+  ![train_graph](https://user-images.githubusercontent.com/37574274/92446497-dd920200-f1f0-11ea-8da5-860fa7abdf22.png)
 - 특히, 코로나에 대한 이미지의 수가 다른 질병에 비해 크게 적은데도 좋은 예측 정확도를 보여주었습니다.
 - Confusion Matrix
   <br/><img src="https://user-images.githubusercontent.com/37574274/91636158-54810b00-ea39-11ea-9d31-66636fc8b585.png" width="50%" height="50%" /><br/>
