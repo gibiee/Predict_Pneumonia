@@ -16,6 +16,8 @@
   - https://www.kaggle.com/praveengovi/coronahack-chest-xraydataset
   - https://www.kaggle.com/tawsifurrahman/covid19-radiography-database
   - 전체 데이터 크기 : 약 2.5GB
+  
+  - 한번에 다운받을 수 있도록 통합 데이터셋을 구축하였습니다 : https://www.kaggle.com/gibi13/pneumonia-covid19-image-dataset
 
 ## 모델 구현
 - Xception 모델 사용. (loss='categorical_crossentropy', optimizer='adam')
